@@ -37,6 +37,14 @@
   transition: all 0.9s ease;
 }
 
+.brand a {
+  text-decoration: none;
+}
+
+.brand a:focus {
+  color: var(--primary);
+}
+
 @media (min-width: 900px) {
   .main-layout {
     padding: 25px 150px;
