@@ -1,0 +1,137 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  color: var(--primary);
+  font-size: 27px;
+}
+
+.nav-links {
+  display: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--dark);
+}
+.buy-me-a-coffee span {
+  background-color: var(--primary);
+  color: var(--white);
+  margin-right: 0.5rem;
+  border-radius: 0.9rem;
+  padding: 0.8rem;
+}
+
+/* small device menu */
+nav .hamburger i {
+  color: var(--primary);
+  cursor: pointer;
+  font-size: 25px;
+}
+
+header.open-menu {
+  position: relative;
+  height: 100vh;
+}
+
+.nav-links.open {
+  display: block;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  background-color: var(--white);
+  height: 100%;
+}
+
+.nav-links.open a {
+  display: block;
+  margin: 3rem 0;
+  font-size: 24px;
+}
+
+/* end of small device menu */
+
+footer {
+  text-align: center;
+  margin: 5rem 0;
+  line-height: 2;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+footer a {
+  color: #56acec;
+}
+
+@media (min-width: 1200px) {
+  .hamburger {
+    display: none;
+  }
+
+  .brand {
+    color: var(--primary);
+    font-size: 27px;
+  }
+
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 42px 150px;
+    z-index: 100000;
+    height: 90px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-links {
+    display: block;
+  }
+
+  .nav-links a:not(:last-child) {
+    padding-right: 50px;
+  }
+
+  .buy-me-a-coffee span {
+    background-color: transparent;
+    color: initial;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* a.buy-me-a-coffee {
+      position: relative;
+      color: var(--white);
+    }
+  
+    .buy-me-a-coffee span {
+      color: var(--white);
+    }
+  
+    .buy-me-a-coffee::before {
+      background-color: var(--primary);
+      width: 36%;
+      width: 78%;
+      content: "";
+      position: absolute;
+      height: 120%;
+      z-index: -1;
+      border-radius: 10px;
+      opacity: 1;
+      color: var(--white);
+    }
+  
+    .buy-me-a-coffee:hover::before {
+      opacity: 0.8;
+    } */
+}

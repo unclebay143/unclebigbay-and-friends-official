@@ -1,0 +1,105 @@
+@media (min-width: 900px) {
+  section.one {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .section-1 {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    width: 50%;
+  }
+
+  .section-1 .content {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .section-1 .hero {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;
+  }
+
+  .section-1 .description {
+    text-align: left;
+    color: var(--grey);
+    font-size: 21px;
+    line-height: 40px;
+    font-weight: 400;
+  }
+
+  .section-1 .btn {
+    margin: unset;
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 19px;
+  }
+
+  .section-2 {
+    width: 50%;
+    padding: 50px;
+  }
+
+  .section-2 img {
+    width: 100%;
+  }
+
+  /* Stacks */
+
+  section.two {
+    position: relative;
+  }
+
+  section.two h1 {
+    text-align: left;
+  }
+
+  .available-stacks {
+    display: flex;
+    flex-direction: row;
+    margin: 60px -12px 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .available-stacks h2 {
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--dark);
+    font-weight: 500;
+  }
+
+  .available-stacks-person {
+    width: calc(33.3% - 24px);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33.3% - 24px);
+    background: #fff;
+    border-radius: 10px;
+    margin: 0 12px 24px;
+    padding: 40px;
+  }
+
+  /* three */
+  section.three h1 {
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+
+  .meeting-image {
+    position: relative;
+  }
+  .orange-dot {
+    position: absolute;
+    z-index: -10;
+    top: 20px;
+  }
+
+  .meeting-image .meeting-1 {
+    width: 100%;
+  }
+}

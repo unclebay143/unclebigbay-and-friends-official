@@ -1,0 +1,143 @@
+section.one {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-1 .content {
+  margin-bottom: 50px;
+}
+
+.section-1 .hero {
+  text-align: center;
+  font-size: 27px;
+  line-height: 40px;
+  font-weight: 500;
+  color: var(--dark);
+  margin-bottom: 50px;
+}
+
+.section-1 .description {
+  text-align: center;
+  color: var(--grey);
+}
+
+.section-1 .btn {
+  margin: 0 auto;
+  background-color: var(--primary);
+  color: var(--white);
+  position: relative;
+  text-transform: capitalize;
+  opacity: 1;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.section-1 .btn:hover {
+  opacity: 0.8;
+}
+
+.section-2 {
+  width: 100%;
+  padding: 50px;
+}
+
+.section-2 img {
+  width: 100%;
+}
+
+/* Stacks */
+
+section.new-section {
+  margin-top: 3rem;
+}
+
+section.new-section h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 32px;
+  line-height: 60px;
+  font-weight: 500;
+  color: var(--dark);
+}
+
+.available-stacks {
+  display: flex;
+  flex-direction: column;
+  margin: 60px -12px 0;
+}
+
+.available-stacks i {
+  width: 64px;
+  min-width: 64px;
+  flex: 0 0 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.available-stacks-person__pink i {
+  color: #e9696a;
+  background-color: #f9e1e1;
+}
+
+.available-stacks-person__purple i {
+  color: #481788;
+  background-color: #d1c5e1;
+}
+
+.available-stacks-person__orange i {
+  color: #efa535;
+  background-color: #fcf1c6;
+}
+
+.available-stacks-person__blue i {
+  background-color: #bfeafa;
+  color: #56acec;
+}
+
+.available-stacks-person__green i {
+  background-color: #c1eacd;
+  color: #56b44a;
+}
+
+.available-stacks h2 {
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.available-stacks-person {
+  flex-basis: calc(33.3% - 24px);
+  background: #fff;
+  border-radius: 10px;
+  margin: 0 12px 24px;
+  padding: 20px;
+}
+
+section.three h1 {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+/* three */
+.meeting-image {
+  position: relative;
+}
+
+.orange-dot {
+  position: absolute;
+  z-index: -10;
+  top: 10px;
+  height: 50%;
+}
+
+.meeting-image .meeting-1 {
+  width: 100%;
+}
