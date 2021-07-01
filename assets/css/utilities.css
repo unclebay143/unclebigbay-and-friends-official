@@ -39,6 +39,7 @@
 
 .brand a {
   text-decoration: none;
+  color: var(--primary);
 }
 
 .brand a:focus {
