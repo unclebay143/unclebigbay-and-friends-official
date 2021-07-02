@@ -1,5 +1,8 @@
 # Unclebigbay and Friends Official Website
 
+[Read article on how to contribute](https://unclebigbay.com/open-source-profile-contribution-challenge-10)
+
+
 
 ### Visit [www.unclebigbayandfriends.netlify.app](https://unclebigbayandfriends.netlify.app/)
 
