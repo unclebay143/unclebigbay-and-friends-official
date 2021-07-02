@@ -33,7 +33,8 @@ article .image {
 
 article img {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
+  height: 300px;
   object-fit: cover;
 }
 
@@ -105,6 +106,10 @@ article .about {
   .members.two-column article .image {
     /* width: 192px; */
     width: 38%;
+  }
+
+  .members.two-column article img {
+    height: 100%;
   }
 
   .members.two-column article .about {
