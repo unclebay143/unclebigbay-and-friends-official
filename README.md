@@ -1,10 +1,10 @@
 # Unclebigbay and Friends Official Website
 
-[Read article on how to contribute](https://unclebigbay.com/open-source-profile-contribution-challenge-10)
+Read: [Article on how to contribute](https://unclebigbay.com/open-source-profile-contribution-challenge-10)
 
 
 
-Website [www.unclebigbayandfriends.netlify.app](https://unclebigbayandfriends.netlify.app/)
+Website: [www.unclebigbayandfriends.netlify.app](https://unclebigbayandfriends.netlify.app/)
 
 ![image](https://user-images.githubusercontent.com/58919619/124138276-68910100-da7e-11eb-94dc-ff1c1177185f.png)
 
