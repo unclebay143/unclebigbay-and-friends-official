@@ -10,7 +10,7 @@ section.members {
   transition: all 0.9s ease;
   display: flex;
   flex-flow: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 article {
