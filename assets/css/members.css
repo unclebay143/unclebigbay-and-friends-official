@@ -10,7 +10,7 @@ section.members {
   transition: all 0.9s ease;
   display: flex;
   flex-flow: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 article {
@@ -20,9 +20,12 @@ article {
   width: 300px;
   margin-top: 3rem;
   border-radius: 0.75rem;
-  background-color: #64c8ee;
   background-color: var(--primary);
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
 }
+
 
 article .image {
   height: 100%;
@@ -56,6 +59,7 @@ article .about {
 .about .stack {
   color: #ccc;
 }
+
 
 .country {
   color: #0891b2;
