@@ -108,30 +108,4 @@ footer a {
     padding: 0;
     margin: 0;
   }
-
-  /* a.buy-me-a-coffee {
-      position: relative;
-      color: var(--white);
-    }
-  
-    .buy-me-a-coffee span {
-      color: var(--white);
-    }
-  
-    .buy-me-a-coffee::before {
-      background-color: var(--primary);
-      width: 36%;
-      width: 78%;
-      content: "";
-      position: absolute;
-      height: 120%;
-      z-index: -1;
-      border-radius: 10px;
-      opacity: 1;
-      color: var(--white);
-    }
-  
-    .buy-me-a-coffee:hover::before {
-      opacity: 0.8;
-    } */
 }
