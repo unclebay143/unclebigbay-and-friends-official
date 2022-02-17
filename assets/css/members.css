@@ -47,42 +47,6 @@ article .about {
   width: 100%;
 }
 
-/*  -------    ABUBAKAR'S  PROFILE TEMPLATE      ----*/
-
-.abba{
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 300px;
-  margin-top: 3rem;
-  border-radius: 0.75rem;
-  background-color: gold;
-  -webkit-box-shadow: 0 10px 6px -6px #777;
-  -moz-box-shadow: 0 10px 6px -6px #777;
-  box-shadow: 0 10px 6px -6px #777;
-
-
-}
-
-.abba .abba-name{
-  color: #ea4335;
-  font-size: 19px;
-  line-height: 24px;
-  font-weight: bold;
-  text-transform: uppercase;
-
-
-}
-.about .abba-stack{
- color: #34a853;
- font-weight: bold;
- 
-}
-
-
-
-/*  -------    END OF  ABUBAKAR'S  PROFILE TEMPLATE     ----*/
-
 
 
 .about .name {
