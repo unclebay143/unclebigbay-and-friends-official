@@ -16,6 +16,8 @@ section.members {
     flex-flow: wrap;
     justify-content: space-evenly;
 }
+
+
 .founder{
     color: #0891b2;
     font-size: 1.5rem;
